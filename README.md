@@ -136,7 +136,7 @@ points = [(0, 0), (1, 1), (2, 2), (3, 3), (5, 5)]
 assert minimum_path(points) == -1
 ```
 
-### Task 3: Integral
+### Task 4: Integral
 
 #### Task description:
 Implement a function that takes a one-dimensional function f(x), an interval [a, b], and an error tolerance epsilon, and returns the integral of the function f(x) over the interval [a, b] with an error no greater than epsilon. The function should use adaptive quadrature with recursive subdivision and a graph algorithm to achieve the required time complexity.
